@@ -31,5 +31,3 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 #Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cherish.maintainer=kawaiinull
-
-Maintainer
