@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 CHERISH_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
+CHERISH_WITHGAPPS := true
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
