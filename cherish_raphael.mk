@@ -26,3 +26,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/ANXCamera/config.mk)
+
+#Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=kawaiinull
+
+Maintainer
